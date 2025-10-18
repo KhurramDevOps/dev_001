@@ -1,0 +1,18 @@
+[project]
+name = "pollination-text-endpoint"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.118.2",
+    "httpx>=0.28.1",
+    "packaging>=25.0",
+    "pollinations>=4.5.1",
+    "pollinations-ai>=4.5.1",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "uvicorn>=0.37.0",
+]
