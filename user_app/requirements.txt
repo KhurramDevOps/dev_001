@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+passlib[bcrypt]
+python-multipart
+python-jose[cryptography] # 👈 ADD THIS FOR JWT
+python-dotenv             # 👈 ADD THIS FOR .env FILE
+pydantic-settings   
